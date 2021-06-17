@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&family=Roboto+Slab:wght@300&display=swap');
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+	background:#181818;
+	color:white;
+	margin:0px;
+	padding:0px;
+}
+#container{
+	display:flex;
+    margin:auto;
+    overflow:hidden;
+}
+#left{
+flex:3;
+display:flex;
+flex-direction:column;
+align-items:center;
+
+}
+#left div{
+	width:80%;
+}
+#logo img{
+	height:60px;
+	width:300px;
+	margin-top:20px;
+}
+#logo{
+	text-align:center;
+}
+.form{
+	padding:20px 0 20px 0;
+}
+.form input{
+	height:40px;
+	width:500px;
+	background:#181818;
+	border-style:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:rgba(138,153,168,.25);
+	margin-bottom:25px;
+}
+button{
+	margin:0 0 20px 0;
+	width:500px;
+	height:40px;
+	color:white;
+	border:none;
+	font-size:110%;
+}
+.form button{
+		background:#0074ab;
+}
+.form button:hover{
+	background:#006395;
+}
+.form label{
+}
+#right{
+	flex:2;
+}
+
+.links a{
+	color:#0074ab;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:90%;
+    align-items:center;
+
+}
+.links a:hover{
+	text-decoration:underline;
+}
+
+.links{
+	display:flex;
+	flex-direction:column;
+	margin-left:50px;
+	align-items:center;
+	width:120%;
+}
+hr { width:126%;
+	 text-align:center;
+	 margin:0 0 20px 0;
+	 border-color:rgba(138,153,168,.25);
+}
+.links button{
+	background-color:rgb(45 49 56);
+
+	color:white;
+	border-radius:2px;
+}
+.links button:hover{
+	background-color:rgba(138,153,168,.25);
+}
+
+#footer{
+	display:flex;
+	flex-direction:column;
+	color:hsla(0,0%,100%,.7);
+	font-size:70%;
+	align-items:center;
+	text-align:center;
+	padding-left:40px;
+	padding-bottom:20px;
+}
+#footer a{
+	color:hsla(0,0%,100%,.7);
+}
+#footer a:hover{
+	color:#006395;;
+}
+#right{
+//	padding-top:5px;
+	background-color:black;
+	background-image:url("bg-gtm-2020.png");
+    background-size:85%,160%;
+    background-repeat:no-repeat;
+    background-position:right top;
+}
+#part2{
+    margin-left:80px;
+	display:flex;
+	flex-direction:column;
+    align-items:center;
+}
+#part2 img{
+	height:250px;
+	width:500px;
+    padding-right:60px;
+    padding-top:130px;
+}
+#part2 button{
+	margin-right:200px;
+	margin-top:40px;
+	font-size:90%;
+	height:40px;
+	width:230px;
+	background-image:linear-gradient(to right,#F05A28,#EC008C,#F05A28);
+	border-radius:2px;
+}
+.bottomright{
+	margin-left:40px;
+}
+.bottomright img{
+	width:25%;
+	float:right;
+	margin-right:30px;
+	margin-top:30px;
+}
